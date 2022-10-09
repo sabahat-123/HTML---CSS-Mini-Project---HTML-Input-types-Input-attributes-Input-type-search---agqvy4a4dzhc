@@ -4,9 +4,11 @@
    box-sizing: border-box;
    font-family: 'Roboto', sans-serif;
 }
+
 div{
     display: block;
 }
+
 body{
     font-family: 'Roboto Condensed', sans-serif;
     margin: 0;
@@ -83,6 +85,57 @@ h2{
     height: 50vh;
     flex: 0 1 60vw;
     margin: 0;
+}
+#header{
+    padding: 1.5rem;
+    text-align: center;
+    background: #333;
+    color: #fff;
+}
+#header h2{
+    border-left: dotted 1px #fff;
+    border-right: dotted 1px #fff;
+    display: inline-block;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+img{
+    display: block;
+    width: 100%;
+}
+.caption{
+    padding: 0.8rem;
+    text-align: center;
+    background-color: #e0dede;
+}
+h3{
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+footer{
+    text-align: center;
+    padding: 2rem 1rem;
+    margin: auto;
+    color: #333;
+}
+footer h3{
+    font-size: 3rem;
+    margin-bottom: 0;
+}
+strong{
+    font-weight: bold;
 }
 @media (min-width: 500px){
 #landing {
